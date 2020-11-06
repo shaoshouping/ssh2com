@@ -231,7 +231,7 @@ void *fxgl_session_malloc(size_t sz)
 void fxgl_session_free(void *ptr)
 {
     if (ptr != NULL) {
-        free(ptr);
+        //free(ptr);
         ptr = NULL;
     }
 
