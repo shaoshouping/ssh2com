@@ -1,0 +1,10 @@
+[Unit]
+Description=ssh2com
+
+[Service]
+ExecStart=/etc/init.d/ssh2com start
+ExecReload=/etc/init.d/ssh2com restart
+ExecStop=/etc/init.d/ssh2com stop
+
+[Install]
+WantedBy=multi-user.target
